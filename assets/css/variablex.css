@@ -1,0 +1,16 @@
+:root{
+    --bg-azul: #2A7AE4;
+    --bg-azul-2: #EAF2FD;
+    --bg-white: #FFFFFF;
+
+    --bg-gray: #F5F5F5;
+    --bg-gray-2: #A2A2A2;
+
+    --color-text: #464646;
+
+    --bg-body: #F5F5F5;
+    --bg-header: #FFFFFF;
+    --bg-footer: #EAF2FD;
+
+    --shadow-input: 0px 2px 3px 0px rgba(200,200,200,0.75);
+}
