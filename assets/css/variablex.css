@@ -13,4 +13,6 @@
     --bg-footer: #EAF2FD;
 
     --shadow-input: 0px 2px 3px 0px rgba(200,200,200,0.75);
+
+    --imagemhero: url('../image/Hero.png');
 }

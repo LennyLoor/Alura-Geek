@@ -8,7 +8,8 @@ body {
     font-family: 'Lato', sans-serif;
     position: relative;
     background-color: var(--bg-body);
-    color: var(--color-text);
+    color: var(--color-text); 
+    font-size: 1rem;
 }
 
 /* SELECTION */
@@ -31,7 +32,7 @@ body ::selection {
     align-items: center;
 }
 
-.section-margin{
+.section-login {
     margin: 0 5rem;
 }
 /* -----------------------
@@ -112,11 +113,12 @@ textarea {
 }
 
 .ag__input--icon input {
+    width: 100%;
     padding: 0.5rem 1rem;
     background-color: var(--bg-gray);
     border: 1px solid var(--bg-gray);
-    border-radius: 20px;
-    outline: none;
+    border-radius: 1.25rem;
+    outline: none;gap: 0.5rem;
 }
 
 .ag__input--icon input::placeholder {
@@ -128,48 +130,18 @@ textarea {
     right: 1rem;
     font-size: .9rem;
 }
+ 
 
-/* -------------------------------------------
-                    HEADER
---------------------------------------------*/
-.ag__header {
-    background-color: var(--bg-header);
-    position: fixed;
-    width: 100%;
-    z-index: 2;
-}
-
-.ag__header__box { 
-    padding: 0.5rem 0;
-    display: flex;
-    gap: 1rem;
-}
-.ag__search--movil{
-    display: none;
-}
-
-/* -------------------------------------------
-                SECTION
---------------------------------------------*/
-.ag__login{
-    display: none;
-}
-.ag__home{
-    display: none;
-}
 /* -------------------------------------------
                 CONTENT
 --------------------------------------------*/
-.ag__content { 
-    padding-top: 9rem;
-    padding-bottom: 6rem;  
+.ag__content {
+    min-height: calc(100% - 7.1rem);
+    padding-top: 7.1rem;
 }
-.ag__content__{  
-    height: 100%; 
-    margin: 0 20px;
-}
+
 .ag__content_box {
-    width: 100%; 
+    width: 100%;
 }
 
 .ag__form__login {
@@ -180,8 +152,9 @@ textarea {
 }
 
 .ag__form--title {
-    font-size: 18px;
+    font-size: 1.125rem;
     text-align: center;
+    font-weight: bold;
 }
 
 /* -------------------------------------------
@@ -203,105 +176,39 @@ textarea {
     text-align: center;
 }
 
-/* -------------------------------------------
-                FOOTER
---------------------------------------------*/
-.ag__footer {
-    background-color: var(--bg-footer);
-}
-
-.ag__footer__box { 
-    padding: 3rem 0;
-    display: flex;
-    gap: 2rem;
-}
-
-.ag__footer__info {
-    background-color: var(--bg-white);
-    padding: 1rem;
+.ag__button__Text {
+    background-color: transparent;
+    border: none;
+    color: var(--bg-azul); 
     text-align: center;
-}
-
-/*-- LOGO -- */
-.footer__box__nav{
-    display: flex; 
-    width: 50%;
-    gap: 2rem;
-}
-
-.footer__box__logo {
-    width: 50%;
-}
-
-/*-- MENU -- */
-.footer__box__menu {
-    width: 50%;
-}
-
-.menu__nav {
-    gap: 1rem;
-}
-
-.menu__nav ul {
+    gap: 0.5rem;
     display: flex;
-    flex-direction: column;
-    list-style: none;
-    padding: 0;
-    gap: 1.2rem;
-    margin-top: 0;
-}
-
-.menu__nav ul li {
-    width: 100%;
-    display: flex;
-}
-
-.menu__nav ul li a {
-    width: 100%;
     text-decoration: none;
-    color: var(--color-text);
+    font-weight: 600;
 }
-
-
-.footer__box__contacto {
-    width: 50%;
-}
-
-.footer__box__contacto h5 {
-    margin-top: 0;
-    margin-bottom: 1rem;
-}
-
-/*--  CONTACT  -- */
-
-.ag__contacto__form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
+ 
 /* -----------------------
         SCROLL
 -------------------------*/
 
-body::-webkit-scrollbar-track{
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	background-color: #F5F5F5;
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
 }
 
-body::-webkit-scrollbar{
-	width: 5px;
-	background-color: #F5F5F5;
+body::-webkit-scrollbar {
+    width: 5px;
+    background-color: #F5F5F5;
 }
 
-body::-webkit-scrollbar-thumb{
-	background-color: var(--bg-azul);	
-	background-image: -webkit-linear-gradient(45deg,
-                    rgba(255, 255, 255, .2) 25%,
-                    transparent 25%,
-                    transparent 50%,
-                    rgba(255, 255, 255, .2) 50%,
-                    rgba(255, 255, 255, .2) 75%,
-                    transparent 75%,
-                    transparent)
+body::-webkit-scrollbar-thumb {
+    background-color: var(--bg-azul);
+    background-image: -webkit-linear-gradient(45deg,
+            rgba(255, 255, 255, .2) 25%,
+            transparent 25%,
+            transparent 50%,
+            rgba(255, 255, 255, .2) 50%,
+            rgba(255, 255, 255, .2) 75%,
+            transparent 75%,
+            transparent)
 }

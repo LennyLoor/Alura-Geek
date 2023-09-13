@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AluraGeek | Login</title>
     <link rel="shortcut icon" href="assets/image/logo/Icon.png">
+    <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/variablex.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <!-- Iconos -->
@@ -15,37 +18,39 @@
 
 <body>
     <header class="ag__header">
-        <div class="ag__header__box section-margin">
-            <img alt="logo-AluraGeek" src="assets/image/logo/Logo.png" class="no-select">
-            <div class="ag__search ag__input--icon">
-                <input placeholder="¿Qué deseas buscar?" type="text">
-                <i class="fa-solid fa-magnifying-glass"></i>
+        <div class="ag__header__box section-login">
+            <div class="header__nav__left">
+                <img alt="logo-AluraGeek" src="assets/image/logo/Logo.png" class="no-select">
+                <div class="ag__search ag__input--icon">
+                    <input placeholder="¿Qué deseas buscar?" type="text">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
             </div>
-            <a class="ag__search--movil">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </a>
+            <div class="header__nav__right">
+                <a class="ag__search--movil">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+            </div>
         </div>
     </header>
-    <main class="ag__content center">
-        <div class="ag__content__">
-            <section class="ag__content_box center">
-                <form class="ag__form__login">
-                    <h3 class="ag__form--title">Iniciar sesión</h3>
-                    <div class="ag__input--group">
-                        <input type="text" placeholder="" required />
-                        <label>Escriba su correo electrónico</label>
-                    </div>
-                    <div class="ag__input--group">
-                        <input type="password" placeholder="" required />
-                        <label>Escriba su contraseña</label>
-                    </div>
-                    <button type="submit" class="ag__button">Entrar</button>
-                </form>
-            </section>
-        </div>
+    <main class="ag__content center"> 
+        <section class="ag__content_box center">
+            <form class="ag__form__login">
+                <h3 class="ag__form--title">Iniciar sesión</h3>
+                <div class="ag__input--group">
+                    <input type="text" placeholder="" required />
+                    <label>Escriba su correo electrónico</label>
+                </div>
+                <div class="ag__input--group">
+                    <input type="password" placeholder="" required />
+                    <label>Escriba su contraseña</label>
+                </div>
+                <button type="submit" class="ag__button">Entrar</button>
+            </form>
+        </section> 
     </main>
     <footer class="ag__footer">
-        <div class="ag__footer__box section-margin">
+        <div class="ag__footer__box section-login">
             <div class="footer__box__nav">
                 <div class="footer__box__logo">
                     <img alt="logo-AluraGeek" src="assets/image/logo/Logo.png" class="no-select">
@@ -53,18 +58,18 @@
                 <div class="footer__box__menu">
                     <nav class="menu__nav">
                         <ul>
-                            <li><a href="#">Quienes somos</a></li>
-                            <li><a href="#">Política de privacidad</a></li>
-                            <li><a href="#">Programa de fidelidad</a></li>
-                            <li><a href="#">Nuestras tiendas</a></li>
-                            <li><a href="#">Quiero ser franquiciado</a></li>
-                            <li><a href="#">Anúncie aquí</a></li>
+                            <li><a href="./pages/home.html">Quienes somos</a></li>
+                            <li><a href="./pages/home.html">Política de privacidad</a></li>
+                            <li><a href="./pages/home.html">Programa de fidelidad</a></li>
+                            <li><a href="./pages/home.html">Nuestras tiendas</a></li>
+                            <li><a href="./pages/home.html">Quiero ser franquiciado</a></li>
+                            <li><a href="./pages/home.html">Anúncie aquí</a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
             <div class="footer__box__contacto">
-                <h5>Hable con nosotros</h5>
+                <h5 class="ag__contacto__title">Hable con nosotros</h5>
                 <form class="ag__contacto__form">
                     <div class="ag__input--group">
                         <input type="text" placeholder="" required />
