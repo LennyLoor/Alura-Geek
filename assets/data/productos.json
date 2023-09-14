@@ -1,0 +1,131 @@
+{
+    "productos": [
+        {
+          "id": "1",
+          "categoria": "StarWars",
+          "imagen": "",
+          "nombre": "Producto XYZ",
+          "precio": "$ 60,00"
+        },
+        {
+          "id": "2",
+          "categoria": "StarWars",
+          "imagen": "",
+          "nombre": "Producto XYZ",
+          "precio": "$ 60,00"
+        },
+        {
+          "id": "3",
+          "categoria": "StarWars",
+          "imagen": "",
+          "nombre": "Producto XYZ",
+          "precio": "$ 60,00"
+        },
+        {
+          "id": "4",
+          "categoria": "StarWars",
+          "imagen": "",
+          "nombre": "Producto XYZ",
+          "precio": "$ 60,00"
+        },
+        {
+          "id": "5",
+          "categoria": "StarWars",
+          "imagen": "",
+          "nombre": "Producto XYZ",
+          "precio": "$ 60,00"
+        },
+        {
+          "id": "6",
+          "categoria": "StarWars",
+          "imagen": "",
+          "nombre": "Producto XYZ",
+          "precio": "$ 60,00"
+        },
+        {
+          "id": "1",
+          "categoria": "consola",
+          "imagen": "",
+          "nombre": "Producto XYZ",
+          "precio": "$ 60,00"
+        },
+        {
+          "id": "2",
+          "categoria": "consola",
+          "imagen": "",
+          "nombre": "Producto XYZ",
+          "precio": "$ 60,00"
+        },
+        {
+          "id": "3",
+          "categoria": "consola",
+          "imagen": "",
+          "nombre": "Producto XYZ",
+          "precio": "$ 60,00"
+        },
+        {
+          "id": "4",
+          "categoria": "consola",
+          "imagen": "",
+          "nombre": "Producto XYZ",
+          "precio": "$ 60,00"
+        },
+        {
+          "id": "5",
+          "categoria": "consola",
+          "imagen": "",
+          "nombre": "Producto XYZ",
+          "precio": "$ 60,00"
+        },
+        {
+          "id": "6",
+          "categoria": "consola",
+          "imagen": "",
+          "nombre": "Producto XYZ",
+          "precio": "$ 60,00"
+        },
+        {
+          "id": "1",
+          "categoria": "diverso",
+          "imagen": "",
+          "nombre": "Producto XYZ",
+          "precio": "$ 60,00"
+        },
+        {
+          "id": "2",
+          "categoria": "diverso",
+          "imagen": "",
+          "nombre": "Producto XYZ",
+          "precio": "$ 60,00"
+        },
+        {
+          "id": "3",
+          "categoria": "diverso",
+          "imagen": "",
+          "nombre": "Producto XYZ",
+          "precio": "$ 60,00"
+        },
+        {
+          "id": "4",
+          "categoria": "diverso",
+          "imagen": "",
+          "nombre": "Producto XYZ",
+          "precio": "$ 60,00"
+        },
+        {
+          "id": "5",
+          "categoria": "diverso",
+          "imagen": "",
+          "nombre": "Producto XYZ",
+          "precio": "$ 60,00"
+        },
+        {
+          "id": "6",
+          "categoria": "diverso",
+          "imagen": "",
+          "nombre": "Producto XYZ",
+          "precio": "$ 60,00"
+        }
+    ]
+    
+}

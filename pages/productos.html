@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AluraGeek | Home</title>
+    <title>AluraGeek | Productos</title>
     <link rel="shortcut icon" href="../assets/image/logo/Icon.png">
     <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/header.css">
     <link rel="stylesheet" href="../assets/css/footer.css">
     <link rel="stylesheet" href="../assets/css/home.css">
+    <link rel="stylesheet" href="../assets/css/productos.css">
     <link rel="stylesheet" href="../assets/css/variablex.css">
     <link rel="stylesheet" href="../assets/css/responsive.css">
     <!-- Iconos -->
@@ -30,44 +31,19 @@
             <div class="header__nav__right">
                 <a class="ag__search--movil">
                     <i class="fa-solid fa-magnifying-glass"></i>
-                </a>
-                <a href="../index.html" class="ag__btn_login ag__button__outline">Login</a>
+                </a> 
             </div>
         </div>
     </header>
-    <main class="ag__content">
-
-        <section class="ag__content_box ag__banner">
-            <div class="ag__banner__box">
-                <span class="ag__banner-title">Diciembre promocional</span>
-                <span class="ag__banner-subtitle">Productos selecionados con 33% de descuento</span>
-                <a href="./productos.html" class="ag__button">Ver Consolas</a>
-            </div>
-        </section>
+    <main class="ag__content"> 
 
         <section class="ag__content_box ag__product"> 
                 <div class="ag__product__title">
-                    <span class="title__span">Star Wars</span>
-                    <a href="./productos.html" class="title__btn ag__button__Text">Ver todo<i class="fa-solid fa-arrow-right"></i></a>
+                    <span class="title__span">Todos los produtos</span>
+                    <a class="title__btn ag__button">Agregar producto</a>
                 </div>
-                <ul class="ag__product__list hide_product" data-starwars></ul> 
-        </section>
-
-        <section class="ag__content_box ag__product"> 
-                <div class="ag__product__title">
-                    <span class="title__span">Consolas</span>
-                    <a href="./productos.html" class="title__btn ag__button__Text">Ver todo<i class="fa-solid fa-arrow-right"></i></a>
-                </div>
-                <ul class="ag__product__list hide_product" data-consolas></ul> 
-        </section>
-
-        <section class="ag__content_box ag__product"> 
-                <div class="ag__product__title">
-                    <span class="title__span">Diversos</span>
-                    <a href="./productos.html" class="title__btn ag__button__Text">Ver todo<i class="fa-solid fa-arrow-right"></i></a>
-                </div>
-                <ul class="ag__product__list hide_product" data-diversos></ul> 
-        </section>
+                <ul class="ag__product__list all_item" data-productos></ul> 
+        </section> 
 
     </main>
     <footer class="ag__footer">
@@ -108,7 +84,7 @@
             <small><b>Desarrollado por Lenny Loor | 2023</b></small>
         </div>
     </footer>
-    <script type="module" src="../assets/controller/filter-producto.controller.js"></script> 
+    <script type="module" src="../assets/controller/productos.controller.js"></script> 
 </body>
 
 </html>
