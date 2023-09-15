@@ -1,8 +1,3 @@
-.section-home {
-    margin: 0 2rem;
-}
-
-/* BANNER */
 .ag__banner {
     background-image:
         linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%),
@@ -44,7 +39,7 @@
     gap: 1rem;
 }
 
-.ag__banner-title {
+.ag__banner--title {
     color: var(--bg-white);
     font-family: Raleway;
     font-size: 3.25rem;
@@ -53,7 +48,7 @@
     line-height: normal;
 }
 
-.ag__banner-subtitle {
+.ag__banner--subtitle {
     color: var(--bg-white);
     font-family: Raleway;
     font-size: 1.375rem;
@@ -62,69 +57,6 @@
     line-height: normal;
 }
 
-/* PRODUCT */
-.ag__product {
-    display: flex;
-    padding: 2rem;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-    align-self: stretch;
-    box-sizing: border-box;
-}
-
-.ag__product__title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    align-self: stretch;
-}
-
-.title__span {
-    font-family: Raleway;
-    font-size: 1.375rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.ag__product__list {
-    width: 100%;
-    gap: 1rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fill,
-            minmax(14.5%, 1fr));
-}
-
-.product__list__item {
-    flex: 1 1 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-}
-
-.list__item--imagen {
-    position: relative;
-}
-
-.imagen__btn--acciones {
-    position: absolute;
-    color: var(--bg-white);
-    width: 100%; 
-    display: flex;
-    justify-content: flex-end;
-    gap: 1rem;
-    padding: 0.5rem;
-    box-sizing: border-box;
-}
-
-.list__item--imagen img {
-    width: 100%;
-}
-
-.list__item--precio {
-    font-weight: bold;
-}
 
 /* ------------------------------------------
                 [RESPONSIVE]
@@ -140,33 +72,13 @@
         gap: 0.5rem;
     }
 
-    .ag__banner-title {
+    .ag__banner--title {
         font-size: 1.375rem;
     }
 
-    .ag__banner-subtitle {
+    .ag__banner--subtitle {
         font-size: 0.875rem;
         font-weight: 400;
     }
 
-    .ag__product__list { 
-        grid-template-columns: repeat(auto-fill,
-                minmax(19%, 1fr));
-    }
-
-    .hide_product .product__list__item:nth-last-child(-n + 2) {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    .ag__product__list {
-        flex-wrap: wrap;
-        grid-template-columns: repeat(auto-fill,
-                minmax(40%, 1fr));
-    }
-
-    .hide_product .product__list__item:nth-last-child(-n + 2) {
-        display: none;
-    }
 }

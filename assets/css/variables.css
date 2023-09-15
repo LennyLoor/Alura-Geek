@@ -5,6 +5,7 @@
 
     --bg-gray: #F5F5F5;
     --bg-gray-2: #A2A2A2;
+    --bg-gray-3: #d3d3d3;
 
     --color-text: #464646;
 
@@ -13,6 +14,9 @@
     --bg-footer: #EAF2FD;
 
     --shadow-input: 0px 2px 3px 0px rgba(200,200,200,0.75);
+
+    --roomy-login: 0 5rem;
+    --roomy-section: 0 2rem;
 
     --imagemhero: url('../image/Hero.png');
 }

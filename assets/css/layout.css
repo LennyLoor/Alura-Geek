@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* -----------------------
+        BODY
+-------------------------*/
+html,
+body {
+    margin: 0 auto;
+    height: 100%;
+    min-height: 100vh;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    background-color: var(--bg-body);
+    color: var(--color-text);
+    font-size: 1rem;
+}
+
+/* SELECTION */
+body ::selection {
+    background-color: var(--bg-azul);
+    color: var(--bg-white);
+}
+
+/* -----------------------
+        SECTION
+-------------------------*/
+
+.roomy-section {
+    margin: var(--roomy-section);
+}
+
+.ag__content {
+    min-height: calc(100% - 7.1rem);
+    padding-top: 7.1rem;
+}
+
+.ag__content_box {
+    width: 100%;
+}
+
+/* -----------------------
+        SELECT
+-------------------------*/
+.no-select {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* -----------------------
+        DISPLAY
+-------------------------*/
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -----------------------
+        SIZE
+-------------------------*/
+.w-full {
+    width: 100%;
+}
+
+/* -----------------------
+        FORM
+-------------------------*/
+.ag__form {
+    display: flex;
+    width: 34.9375rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.ag__form--title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* -----------------------
+        INPUT
+-------------------------*/
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* INPUT GROUP | SIMBOLO */
+.ag__input--groupIcon {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+
+.ag__input--groupIcon input {
+    border: none;
+    display: block;
+    padding: 1rem;
+    width: 100%;
+    resize: none;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    background-color: var(--bg-white);
+    box-shadow: var(--shadow-input);
+    -webkit-box-shadow: var(--shadow-input);
+    -moz-box-shadow: var(--shadow-input);
+}
+
+.ag__input--groupIcon input:focus {
+    outline: none;
+}
+
+.ag__input--groupIcon label {
+    color: var(--bg-gray-2);
+    font-weight: 100;
+    position: absolute;
+    top: 4px;
+    left: 1rem;
+    pointer-events: none;
+    transform: translateY(10px);
+}
+
+.ag__input--groupIcon input:valid,
+.ag__input--groupIcon input:focus {
+    padding: 1.5rem 1rem .8rem 1.8rem;
+    outline: none;
+    transition: .5s;
+}
+
+.ag__input--groupIcon input:focus~label,
+.ag__input--groupIcon input:valid~label {
+    color: var(--bg-gray-2);
+    font-size: .6rem;
+    transform: translateY(-26px);
+    left: 1rem;
+    top: 35px;
+    transition: .5s;
+}
+
+.input--simbolo {
+    position: relative;
+    display: block;
+    width: 300px;
+}
+
+.input--simbolo:before {
+    content: '';
+
+}
+
+.ag__input--groupIcon input:focus~.input--simbolo:after,
+.ag__input--groupIcon input:valid~.input--simbolo:after {
+    content: '$';
+    width: auto;
+    display: block;
+    position: absolute;
+    top: -29px;
+    left: 15px;
+}
+
+/*--  INPUT GROUP  --*/
+.ag__input--group {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+
+.ag__input--group input,
+textarea {
+    border: none;
+    display: block;
+    padding: 1rem;
+    width: 100%;
+    resize: none;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    background-color: var(--bg-white);
+    box-shadow: var(--shadow-input);
+    -webkit-box-shadow: var(--shadow-input);
+    -moz-box-shadow: var(--shadow-input);
+}
+
+.ag__input--group label {
+    color: var(--bg-gray-2);
+    font-weight: 100;
+    position: absolute;
+    top: 4px;
+    left: 1rem;
+    pointer-events: none;
+    transform: translateY(10px);
+}
+
+
+.ag__input--group textarea:valid,
+.ag__input--group textarea:focus {
+    padding: 1.5rem 1rem .8rem 1rem;
+    outline: none;
+    transition: .5s;
+}
+
+.ag__input--group input:valid,
+.ag__input--group input:focus {
+    padding: 1.5rem 1rem .8rem 1rem;
+    outline: none;
+    transition: .5s;
+}
+
+.ag__input--group textarea:valid+label,
+.ag__input--group textarea:focus+label,
+.ag__input--group input:valid+label,
+.ag__input--group input:focus+label {
+    color: var(--bg-gray-2);
+    font-size: .6rem;
+    transform: translateY(-26px);
+    left: 1rem;
+    top: 35px;
+    transition: .5s;
+}
+
+.ag__input--group label {
+    transition: all 0.2s ease-in-out;
+}
+
+/*--  INPUT ICON  --*/
+.ag__input--icon {
+    margin: auto 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: var(--bg-gray-2);
+}
+
+.ag__input--icon input {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: var(--bg-gray);
+    border: 1px solid var(--bg-gray);
+    border-radius: 1.25rem;
+    outline: none;
+    gap: 0.5rem;
+}
+
+.ag__input--icon input::placeholder {
+    color: var(--bg-gray-2);
+}
+
+.ag__input--icon i {
+    position: absolute;
+    right: 1rem;
+    font-size: .9rem;
+}
+
+/* INPUT FILE */
+
+.ag__file {
+    width: 100%;
+    display: flex;
+    position: relative;
+    gap: 1rem;
+}
+
+.ag__file div {
+    flex: 1 1 0;
+}
+
+.ag__file span {
+    font-size: 1.5rem;
+}
+
+.ag__file--boximage {
+    position: relative;
+    background-color: var(--bg-white);
+    border-radius: 4px;
+    min-height: 8em;
+}
+
+.ag__file--boximage:before {
+    content: "";
+    position: absolute;
+    border-radius: 4px;
+    border: 1.5px dashed var(--bg-gray-3);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.ag__file--inputImage {
+    position: relative;
+}
+
+.boximage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+    color: var(--bg-gray-2);
+}
+
+.boximage span {
+    width: 60%;
+    font-size: .7rem;
+    line-height: 1rem;
+}
+
+.boximage i {
+    font-size: 2rem;
+}
+
+.boximage__inputfile {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    cursor: pointer;
+}
+
+.inputImage__inputfile {
+    width: 100%;
+    height: 42px;
+    opacity: 0;
+    position: absolute;
+    cursor: pointer;
+}
+
+/* -------------------------------------------
+                BUTTON
+--------------------------------------------*/
+.ag__button {
+    background-color: var(--bg-azul);
+    border: 1px solid var(--bg-azul);
+    color: var(--bg-white);
+    padding: 12px 16px 12px 16px;
+    text-align: center;
+    text-decoration: none;
+    gap: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.ag__button--outline {
+    background-color: var(--bg-white);
+    border: 1px solid var(--bg-azul);
+    color: var(--bg-azul);
+    padding: 12px 16px 12px 16px;
+    text-align: center;
+    text-decoration: none;
+    gap: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.ag__button--Text {
+    background-color: transparent;
+    border: none;
+    color: var(--bg-azul);
+    text-align: center;
+    gap: 0.5rem;
+    display: flex;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* -----------------------
+        SCROLL
+-------------------------*/
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+    background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--bg-azul);
+    background-image: -webkit-linear-gradient(45deg,
+            rgba(255, 255, 255, .2) 25%,
+            transparent 25%,
+            transparent 50%,
+            rgba(255, 255, 255, .2) 50%,
+            rgba(255, 255, 255, .2) 75%,
+            transparent 75%,
+            transparent)
+}
+
+/* ------------------------------------------
+                [RESPONSIVE]
+------------------------------------------- */
+
+@media only screen and (max-width: 768px) {
+    .ag__content {
+        min-height: calc(100% - 5.7rem);
+        padding-top: 5.7rem;
+    }
+
+    .ag__form--title {
+        font-size: 1.375rem;
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .ag__content {
+        padding-top: 4.5rem;
+    }
+
+    .ag__form--title {
+        font-size: 1.5rem;
+    }
+
+    .ag__file {
+        flex-direction: column;
+    }
+}

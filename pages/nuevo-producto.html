@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/layout.css">
     <link rel="stylesheet" href="../assets/css/header.css">
-    <link rel="stylesheet" href="../assets/css/footer.css"> 
+    <link rel="stylesheet" href="../assets/css/footer.css">
     <link rel="stylesheet" href="../assets/css/productos.css">
     <link rel="stylesheet" href="../assets/css/variables.css">
     <!-- Iconos -->
@@ -36,22 +36,54 @@
                 <!-- Boton de búsqueda | Móvil -->
                 <a class="ag__search--movil">
                     <i class="fa-solid fa-magnifying-glass"></i>
-                </a> 
+                </a>
+                <!-- Boton | Administrador -->
+                <a class="ag__btn__header ag__button--outline">Menú Administrador</a>
             </div>
         </div>
     </header>
-    <main class="ag__content"> 
-        <!-- Galeria de produtos -->
-        <section class="ag__content_box ag__product"> 
-                <div class="ag__product--title">
-                    <span class="title__span">Todos los produtos</span>
-                    <a href="nuevo-producto.html" class="title__btn ag__button">Agregar producto</a>
-                </div>
-                <ul class="ag__product--list all_item" data-productos></ul> 
-        </section> 
+    <main class="ag__content">
+        <!-- Agregar nuevo producto -->
+        <section class="ag__content_box ag__product">
+            <div class="center w-full">
+                <form class="ag__form" action="#" data-nuevoProducto>
+                    <h5 class="ag__form--title">Agregar nuevo producto</h5>
+                    <div class="ag__file">
+                        <div class="ag__file--boximage center">
+                            <input class="boximage__inputfile" type="file" data-dragdropImage>
+                            <div class="boximage">
+                                <i class="fa-solid fa-image"></i>
+                                <span>Arrastre para agregar una imagen para el producto</span>
+                            </div>
+                        </div>
+                        <span class="center">o</span>
+                        <div class="ag__file--inputImage center">
+                            <input class="inputImage__inputfile" data-fileImage type="file">
+                            <a class="w-full ag__button--outline">
+                                Busque en su computador
+                            </a>
+                        </div>
+                    </div> 
+                    <div class="ag__input--group">
+                        <input type="text" name="nombreProducto" placeholder="" data-nombreProducto required />
+                        <label>Nombre del producto</label>
+                    </div> 
+                    <div class="ag__input--groupIcon">    
+                        <input type="number" name="precio" data-precio required/> 
+                        <span class="input--simbolo"></span>
+                        <label>Precio del producto</label>                        
+                    </div>
+                    <div class="ag__input--group">
+                        <textarea rows="3" name="descripcion" data-descripcion required></textarea>
+                        <label>Descripción del producto</label>
+                    </div>
+                    <button type="submit" class="ag__button w-full">Agregar producto</button>
+                </form>
+            </div>
+        </section>
 
     </main>
-    <!-- Rodapé -->
+    <!-- Rodapé -->    
     <footer class="ag__footer">
         <div class="ag__footer__box roomy-section">
             <div class="footer__box__nav">
@@ -93,8 +125,7 @@
         <div class="ag__footer__info">
             <small><b>Desarrollado por Lenny Loor | 2023</b></small>
         </div>
-    </footer>
-    <script type="module" src="../assets/controller/productos.controller.js"></script> 
+    </footer> 
 </body>
 
 </html>

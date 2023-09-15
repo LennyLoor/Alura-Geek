@@ -6,55 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AluraGeek | Login</title>
     <link rel="shortcut icon" href="assets/image/logo/Icon.png">
+    <!-- Styles -->
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/login.css">
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/footer.css">
-    <link rel="stylesheet" href="assets/css/variablex.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/variables.css">
     <!-- Iconos -->
     <script src="https://kit.fontawesome.com/b229e29af4.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <!-- Cabecera -->
     <header class="ag__header">
-        <div class="ag__header__box section-login">
+        <div class="ag__header__box roomy-login">
             <div class="header__nav__left">
                 <img alt="logo-AluraGeek" src="assets/image/logo/Logo.png" class="no-select">
+                <!-- Barra de búsqueda -->
                 <div class="ag__search ag__input--icon">
-                    <input placeholder="¿Qué deseas buscar?" type="text">
+                    <input type="search" placeholder="¿Qué deseas buscar?">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
             </div>
             <div class="header__nav__right">
+                <!-- Boton de búsqueda | Móvil -->
                 <a class="ag__search--movil">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </a>
             </div>
         </div>
     </header>
-    <main class="ag__content center"> 
+    <main class="ag__content center">
         <section class="ag__content_box center">
-            <form class="ag__form__login">
+            <!-- Formulario login -->
+            <form class="ag__form__login" action="#" data-login>
                 <h3 class="ag__form--title">Iniciar sesión</h3>
                 <div class="ag__input--group">
-                    <input type="text" placeholder="" required />
+                    <input type="text" placeholder="" data-correo required/>
                     <label>Escriba su correo electrónico</label>
                 </div>
                 <div class="ag__input--group">
-                    <input type="password" placeholder="" required />
+                    <input type="password" name="password" autocomplete="on" data-contrasenia required/>
                     <label>Escriba su contraseña</label>
                 </div>
                 <button type="submit" class="ag__button">Entrar</button>
             </form>
-        </section> 
+        </section>
     </main>
+    <!-- Rodapé -->
     <footer class="ag__footer">
-        <div class="ag__footer__box section-login">
+        <div class="ag__footer__box roomy-login">
             <div class="footer__box__nav">
+                <!-- Logo -->
                 <div class="footer__box__logo">
                     <img alt="logo-AluraGeek" src="assets/image/logo/Logo.png" class="no-select">
                 </div>
+                <!-- Menú -->
                 <div class="footer__box__menu">
                     <nav class="menu__nav">
                         <ul>
@@ -68,21 +76,23 @@
                     </nav>
                 </div>
             </div>
+            <!-- Contacto -->
             <div class="footer__box__contacto">
                 <h5 class="ag__contacto__title">Hable con nosotros</h5>
-                <form class="ag__contacto__form">
+                <form class="ag__contacto__form" action="#" data-contacto>
                     <div class="ag__input--group">
-                        <input type="text" placeholder="" required />
+                        <input type="text" placeholder="" name="nombre" data-nombre required/>
                         <label>Nombre</label>
                     </div>
                     <div class="ag__input--group">
-                        <textarea rows="3" required></textarea>
+                        <textarea rows="3" name="mensaje" data-mensaje required></textarea>
                         <label>Mensaje</label>
                     </div>
                     <button type="submit" class="ag__button">Enviar mensaje</button>
                 </form>
             </div>
         </div>
+        <!-- Rodapié | Datos del desarrollador -->
         <div class="ag__footer__info">
             <small><b>Desarrollado por Lenny Loor | 2023</b></small>
         </div>

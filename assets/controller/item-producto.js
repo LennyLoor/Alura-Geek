@@ -6,11 +6,11 @@ export const itemProducto = (categoria, nombre, precio, id) => {
                                 <a><i class="fa-solid fa-trash"></i></a>
                                 <a><i class="fa-solid fa-pen"></i></a>
                             </div>
-                            <img src="/assets/image/productos/${categoria}-${id}.png">
+                            <img alt="producto" src="/assets/image/productos/${categoria}-${id}.png">
                         </div>
                         <span class="list__item--nombre">${nombre} XYZ</span>
                         <span class="list__item--precio"> ${precio} </span>
-                        <a class="list__item--boton ag__button__Text">Ver producto</a>`;
+                        <a class="list__item--boton ag__button--Text">Ver producto</a>`;
     item_.innerHTML = content_;
     return item_
 }
