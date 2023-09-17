@@ -10,119 +10,119 @@
     {
       "categoria": "StarWars",
       "name": "Producto XYZ",
-      "imageUrl": "/assets/image/productos/StarWars-1.png",
+      "imageUrl": "..//assets/image/productos/StarWars-1.png",
       "price": "$ 60,00",
       "id": "2"
     },
     {
       "categoria": "StarWars",
       "name": "Producto XYZ",
-      "imageUrl": "/assets/image/productos/StarWars-2.png",
+      "imageUrl": "..//assets/image/productos/StarWars-2.png",
       "price": "$ 60,00",
       "id": "3"
     },
     {
       "categoria": "StarWars",
       "name": "Producto XYZ",
-      "imageUrl": "/assets/image/productos/StarWars-4.png",
+      "imageUrl": "..//assets/image/productos/StarWars-4.png",
       "price": "$ 60,00",
       "id": "4"
     },
     {
       "categoria": "StarWars",
       "name": "Producto XYZ",
-      "imageUrl": "/assets/image/productos/StarWars-5.png",
+      "imageUrl": "..//assets/image/productos/StarWars-5.png",
       "price": "$ 60,00",
       "id": "5"
     },
     {
       "categoria": "StarWars",
       "name": "Producto XYZ",
-      "imageUrl": "/assets/image/productos/StarWars-6.png",
+      "imageUrl": "..//assets/image/productos/StarWars-6.png",
       "price": "$ 60,00",
       "id": "6"
     },
     {
       "categoria": "Consolas",
       "name": "Producto XYZ",
-      "imageUrl": "/assets/image/productos/consola-1.png",
+      "imageUrl": "..//assets/image/productos/consola-1.png",
       "price": "$ 60,00",
       "id": "7"
     },
     {
       "categoria": "Consolas",
       "name": "Producto XYZ",
-      "imageUrl": "/assets/image/productos/consola-2.png",
+      "imageUrl": "..//assets/image/productos/consola-2.png",
       "price": "$ 60,00",
       "id": "8"
     },
     {
       "categoria": "Consolas",
       "name": "Producto XYZ",
-      "imageUrl": "/assets/image/productos/consola-3.png",
+      "imageUrl": "..//assets/image/productos/consola-3.png",
       "price": "$ 60,00",
       "id": "9"
     },
     {
       "categoria": "Consolas",
       "name": "Producto XYZ",
-      "imageUrl": "/assets/image/productos/consola-4.png",
+      "imageUrl": "..//assets/image/productos/consola-4.png",
       "price": "$ 60,00",
       "id": "10"
     },
     {
       "categoria": "Consolas",
       "name": "Producto XYZ",
-      "imageUrl": "/assets/image/productos/consola-5.png",
+      "imageUrl": "..//assets/image/productos/consola-5.png",
       "price": "$ 60,00",
       "id": "11"
     },
     {
       "categoria": "Consolas",
       "name": "Producto XYZ",
-      "imageUrl": "/assets/image/productos/consola-6.png",
+      "imageUrl": "..//assets/image/productos/consola-6.png",
       "price": "$ 60,00",
       "id": "12"
     },
     {
       "categoria": "Diversos",
       "name": "Producto XYZ",
-      "imageUrl": "/assets/image/productos/diverso-1.png",
+      "imageUrl": "..//assets/image/productos/diverso-1.png",
       "price": "$ 60,00",
       "id": "13"
     },
     {
       "categoria": "Diversos",
       "name": "Producto XYZ",
-      "imageUrl": "/assets/image/productos/diverso-2.png",
+      "imageUrl": "..//assets/image/productos/diverso-2.png",
       "price": "$ 60,00",
       "id": "14"
     },
     {
       "categoria": "Diversos",
       "name": "Producto XYZ",
-      "imageUrl": "/assets/image/productos/diverso-3.png",
+      "imageUrl": "..//assets/image/productos/diverso-3.png",
       "price": "$ 60,00",
       "id": "15"
     },
     {
       "categoria": "Diversos",
       "name": "Producto XYZ",
-      "imageUrl": "/assets/image/productos/diverso-4.png",
+      "imageUrl": "..//assets/image/productos/diverso-4.png",
       "price": "$ 60,00",
       "id": "16"
     },
     {
       "categoria": "Diversos",
       "name": "Producto XYZ",
-      "imageUrl": "/assets/image/productos/diverso-5.png",
+      "imageUrl": "..//assets/image/productos/diverso-5.png",
       "price": "$ 60,00",
       "id": "17"
     },
     {
       "categoria": "Diversos",
       "name": "Producto XYZ",
-      "imageUrl": "/assets/image/productos/diverso-6.png",
+      "imageUrl": "..//assets/image/productos/diverso-6.png",
       "price": "$ 60,00",
       "id": "18"
     }
