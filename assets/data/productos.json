@@ -125,13 +125,6 @@
       "imageUrl": "../assets/image/productos/diverso-6.png",
       "price": "$ 60,00",
       "id": "18"
-    },
-    {
-      "imageUrl": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2021/01/harry-potter-1.jpg?fit=2500%2C1576&quality=50&strip=all&ssl=1",
-      "categoria": "Fantasía ",
-      "name": "Harry Pooter",
-      "price": "$10.00",
-      "id": "a6eff164-4d7d-4fff-a070-62b4d8ab4422"
     }
   ]
 }
