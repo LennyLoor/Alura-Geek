@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/layout.css">
     <link rel="stylesheet" href="../assets/css/header.css">
-    <link rel="stylesheet" href="../assets/css/footer.css"> 
+    <link rel="stylesheet" href="../assets/css/footer.css">
     <link rel="stylesheet" href="../assets/css/productos.css">
     <link rel="stylesheet" href="../assets/css/variables.css">
     <!-- Iconos -->
@@ -36,19 +36,19 @@
                 <!-- Boton de búsqueda | Móvil -->
                 <a class="ag__search--movil">
                     <i class="fa-solid fa-magnifying-glass"></i>
-                </a> 
+                </a>
             </div>
         </div>
     </header>
-    <main class="ag__content"> 
+    <main class="ag__content">
         <!-- Galeria de produtos -->
-        <section class="ag__content_box ag__product"> 
-                <div class="ag__product--title">
-                    <span class="title__span">Todos los produtos</span>
-                    <a href="nuevo-producto.html" class="title__btn ag__button">Agregar producto</a>
-                </div>
-                <ul class="ag__product--list all_item" data-productos></ul> 
-        </section> 
+        <section class="ag__content_box ag__product">
+            <div class="ag__product--title">
+                <span class="title__span">Todos los produtos</span>
+                <a href="nuevo-producto.html" class="title__btn ag__button">Agregar producto</a>
+            </div>
+            <ul class="ag__product--list all_item" data-productos></ul>
+        </section>
 
     </main>
     <!-- Rodapé -->
@@ -78,7 +78,7 @@
                 <h5 class="ag__contacto__title">Hable con nosotros</h5>
                 <form class="ag__contacto__form" action="#" data-contacto>
                     <div class="ag__input--group">
-                        <input type="text" placeholder="" name="nombre" data-nombre required/>
+                        <input type="text" placeholder="" name="nombre" data-nombre required />
                         <label>Nombre</label>
                     </div>
                     <div class="ag__input--group">
@@ -94,7 +94,19 @@
             <small><b>Desarrollado por Lenny Loor | 2023</b></small>
         </div>
     </footer>
-    <script type="module" src="../assets/controller/productos.controller.js"></script> 
+
+    <!-- MODAL -->
+    <div class="ag__modal" data-modal>
+        <div class="ag__modal__content">
+            <p>¿Esta seguro de eliminar el producto?</p>
+            <div class="modal__content--botones center">
+                <button class="modBtn-elemininar ag__button">SI</button>
+                <button class="modBtn-cancelar ag__button--outline">NO</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="../assets/controller/productos.controller.js"></script>
 </body>
 
 </html>

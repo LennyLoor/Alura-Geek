@@ -41,6 +41,7 @@
 
 .list__item--imagen {
     position: relative;
+    display: flex;
 }
 
 .imagen__btn--acciones {
@@ -50,12 +51,16 @@
     display: flex;
     justify-content: flex-end;
     gap: 1rem;
-    padding: 0.5rem;
+    padding: 1rem;
     box-sizing: border-box;
+    order: 1;
 }
-
+.imagen__btn--acciones a{
+    cursor: pointer;
+}
 .list__item--imagen img {
     width: 100%;
+    order: 2;
 }
 
 .list__item--precio {

@@ -13,10 +13,16 @@
     --bg-header: #FFFFFF;
     --bg-footer: #EAF2FD;
 
+    --bg-success: #67ab29; 
+    --bg-warm: #d49a2e; 
+    --bg-error: #d44646;  
+
     --shadow-input: 0px 2px 3px 0px rgba(200,200,200,0.75);
 
     --roomy-login: 0 5rem;
     --roomy-section: 0 2rem;
 
     --imagemhero: url('../image/Hero.png');
+
+    --border-box-content: 4px;
 }

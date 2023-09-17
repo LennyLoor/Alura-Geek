@@ -42,40 +42,28 @@
             </div>
         </div>
     </header>
-    <main class="ag__content">
+    <main class="ag__content center">
         <!-- Agregar nuevo producto -->
-        <section class="ag__content_box ag__product">
+        <section class="ag__content_box center ag__product">
             <div class="center w-full">
                 <form class="ag__form" action="#" data-nuevoProducto>
                     <h5 class="ag__form--title">Agregar nuevo producto</h5>
-                    <div class="ag__file">
-                        <div class="ag__file--boximage center">
-                            <input class="boximage__inputfile" type="file" data-dragdropImage>
-                            <div class="boximage">
-                                <i class="fa-solid fa-image"></i>
-                                <span>Arrastre para agregar una imagen para el producto</span>
-                            </div>
-                        </div>
-                        <span class="center">o</span>
-                        <div class="ag__file--inputImage center">
-                            <input class="inputImage__inputfile" data-fileImage type="file">
-                            <a class="w-full ag__button--outline">
-                                Busque en su computador
-                            </a>
-                        </div>
-                    </div> 
+                    <div class="ag__input--group">
+                        <input type="text" name="urlImage" placeholder="" data-fileImage required />
+                        <label>URL de la imagen</label>
+                    </div>
+                    <div class="ag__input--group">
+                        <input type="text" name="Categoria" placeholder="" data-categoria required />
+                        <label>Categoria</label>
+                    </div>
                     <div class="ag__input--group">
                         <input type="text" name="nombreProducto" placeholder="" data-nombreProducto required />
                         <label>Nombre del producto</label>
-                    </div> 
-                    <div class="ag__input--groupIcon">    
-                        <input type="number" name="precio" data-precio required/> 
-                        <span class="input--simbolo"></span>
-                        <label>Precio del producto</label>                        
                     </div>
-                    <div class="ag__input--group">
-                        <textarea rows="3" name="descripcion" data-descripcion required></textarea>
-                        <label>Descripción del producto</label>
+                    <div class="ag__input--groupIcon">
+                        <input type="text" name="precio" data-price="">
+                        <span class="input--simbolo"></span>
+                        <label>Precio del producto</label>
                     </div>
                     <button type="submit" class="ag__button w-full">Agregar producto</button>
                 </form>
@@ -83,7 +71,7 @@
         </section>
 
     </main>
-    <!-- Rodapé -->    
+    <!-- Rodapé -->
     <footer class="ag__footer">
         <div class="ag__footer__box roomy-section">
             <div class="footer__box__nav">
@@ -110,7 +98,7 @@
                 <h5 class="ag__contacto__title">Hable con nosotros</h5>
                 <form class="ag__contacto__form" action="#" data-contacto>
                     <div class="ag__input--group">
-                        <input type="text" placeholder="" name="nombre" data-nombre required/>
+                        <input type="text" placeholder="" name="nombre" data-nombre required />
                         <label>Nombre</label>
                     </div>
                     <div class="ag__input--group">
@@ -125,7 +113,11 @@
         <div class="ag__footer__info">
             <small><b>Desarrollado por Lenny Loor | 2023</b></small>
         </div>
-    </footer> 
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"
+        integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="../assets/controller/crear-productos.controller.js"></script>
 </body>
 
 </html>
