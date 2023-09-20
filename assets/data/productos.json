@@ -3,9 +3,23 @@
     {
       "categoria": "StarWars",
       "name": "Producto XYZ",
-      "imageUrl": "../assets/image/productos/StarWars-1.png",
+      "imageUrl": "https://i.pinimg.com/236x/74/c5/98/74c598a9d744bbb7e178e124705455aa.jpg",
       "price": "$ 60,00",
       "id": "1"
+    },
+    {
+      "categoria": "StarWars",
+      "name": "Producto XYZ",
+      "imageUrl": "../assets/image/productos/StarWars-1.png",
+      "price": "$ 60,00",
+      "id": "2"
+    },
+    {
+      "categoria": "StarWars",
+      "name": "Producto XYZ",
+      "imageUrl": "../assets/image/productos/StarWars-2.png",
+      "price": "$ 60,00",
+      "id": "3"
     },
     {
       "categoria": "StarWars",
@@ -52,6 +66,13 @@
     {
       "categoria": "Consolas",
       "name": "Producto XYZ",
+      "imageUrl": "../assets/image/productos/consola-4.png",
+      "price": "$ 60,00",
+      "id": "10"
+    },
+    {
+      "categoria": "Consolas",
+      "name": "Producto XYZ",
       "imageUrl": "../assets/image/productos/consola-5.png",
       "price": "$ 60,00",
       "id": "11"
@@ -76,6 +97,34 @@
       "imageUrl": "../assets/image/productos/diverso-2.png",
       "price": "$ 60,00",
       "id": "14"
+    },
+    {
+      "categoria": "Diversos",
+      "name": "Producto XYZ",
+      "imageUrl": "../assets/image/productos/diverso-3.png",
+      "price": "$ 60,00",
+      "id": "15"
+    },
+    {
+      "categoria": "Diversos",
+      "name": "Producto XYZ",
+      "imageUrl": "../assets/image/productos/diverso-4.png",
+      "price": "$ 60,00",
+      "id": "16"
+    },
+    {
+      "categoria": "Diversos",
+      "name": "Producto XYZ",
+      "imageUrl": "../assets/image/productos/diverso-5.png",
+      "price": "$ 60,00",
+      "id": "17"
+    },
+    {
+      "categoria": "Diversos",
+      "name": "Producto XYZ",
+      "imageUrl": "../assets/image/productos/diverso-6.png",
+      "price": "$ 60,00",
+      "id": "18"
     }
   ]
 }
