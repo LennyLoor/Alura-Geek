@@ -10,20 +10,6 @@
     {
       "categoria": "StarWars",
       "name": "Producto XYZ",
-      "imageUrl": "../assets/image/productos/StarWars-2.png",
-      "price": "$ 60,00",
-      "id": "2"
-    },
-    {
-      "categoria": "StarWars",
-      "name": "Producto XYZ",
-      "imageUrl": "../assets/image/productos/StarWars-3.png",
-      "price": "$ 60,00",
-      "id": "3"
-    },
-    {
-      "categoria": "StarWars",
-      "name": "Producto XYZ",
       "imageUrl": "../assets/image/productos/StarWars-4.png",
       "price": "$ 60,00",
       "id": "4"
@@ -66,13 +52,6 @@
     {
       "categoria": "Consolas",
       "name": "Producto XYZ",
-      "imageUrl": "../assets/image/productos/consola-4.png",
-      "price": "$ 60,00",
-      "id": "10"
-    },
-    {
-      "categoria": "Consolas",
-      "name": "Producto XYZ",
       "imageUrl": "../assets/image/productos/consola-5.png",
       "price": "$ 60,00",
       "id": "11"
@@ -97,41 +76,6 @@
       "imageUrl": "../assets/image/productos/diverso-2.png",
       "price": "$ 60,00",
       "id": "14"
-    },
-    {
-      "categoria": "Diversos",
-      "name": "Producto XYZ",
-      "imageUrl": "../assets/image/productos/diverso-3.png",
-      "price": "$ 60,00",
-      "id": "15"
-    },
-    {
-      "categoria": "Diversos",
-      "name": "Producto XYZ",
-      "imageUrl": "../assets/image/productos/diverso-4.png",
-      "price": "$ 60,00",
-      "id": "16"
-    },
-    {
-      "categoria": "Diversos",
-      "name": "Producto XYZ",
-      "imageUrl": "../assets/image/productos/diverso-5.png",
-      "price": "$ 60,00",
-      "id": "17"
-    },
-    {
-      "categoria": "Diversos",
-      "name": "Producto XYZ",
-      "imageUrl": "../assets/image/productos/diverso-6.png",
-      "price": "$ 60,00",
-      "id": "18"
-    },
-    {
-      "imageUrl": "https://static.wikia.nocookie.net/esharrypotter/images/8/8d/PromoHP7_Harry_Potter.jpg/revision/latest?cb=20160903184919",
-      "categoria": "fantasia",
-      "name": "Prueba",
-      "price": "$20.00",
-      "id": "80b8f3aa-096c-475a-a506-33b1c995816b"
     }
   ]
 }
