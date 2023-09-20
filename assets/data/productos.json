@@ -125,6 +125,13 @@
       "imageUrl": "../assets/image/productos/diverso-6.png",
       "price": "$ 60,00",
       "id": "18"
+    },
+    {
+      "imageUrl": "https://static.wikia.nocookie.net/esharrypotter/images/8/8d/PromoHP7_Harry_Potter.jpg/revision/latest?cb=20160903184919",
+      "categoria": "fantasia",
+      "name": "Prueba",
+      "price": "$20.00",
+      "id": "80b8f3aa-096c-475a-a506-33b1c995816b"
     }
   ]
 }

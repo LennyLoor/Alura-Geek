@@ -12,7 +12,7 @@ import { itemProducto } from "./item-producto.js";
         modalDelete: document.querySelector("[data-modal]"),
     }
 
-    productServices.listaProductos().then((data) => {
+    productServices.listaProductos().then((data) => { 
         data.forEach(({ categoria, name, imageUrl, price, id }) => {
             const nuevoProducto = itemProducto(categoria, name, imageUrl, price, id);
             html.listaProductos.appendChild(nuevoProducto);

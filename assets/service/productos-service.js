@@ -1,11 +1,11 @@
 
 //Fetch API
-const listaProductos = () => fetch('https://mocki.io/v1/8eca9abe-8ddd-41d9-8ea3-c21320e494de').then(respuesta => respuesta.json())
+const listaProductos = () => fetch('http://localhost:3000/productos').then(respuesta => respuesta.json())
 
 
 //POST 
 const crearProducto = (imageUrl, categoria, name, price )=>{
-    return fetch('https://mocki.io/v1/8eca9abe-8ddd-41d9-8ea3-c21320e494de',{
+    return fetch('http://localhost:3000/productos',{
         method: "POST",
         headers:{
             'content-type': 'application/json'
@@ -15,7 +15,7 @@ const crearProducto = (imageUrl, categoria, name, price )=>{
 } 
 
 const eliminarProducto = (id) => { 
-    return fetch(`https://mocki.io/v1/8eca9abe-8ddd-41d9-8ea3-c21320e494de/${id}`,{
+    return fetch(`http://localhost:3000/productos/${id}`,{
         method: "DELETE",
     })
 }
