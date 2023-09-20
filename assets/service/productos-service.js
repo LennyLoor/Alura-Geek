@@ -1,11 +1,11 @@
 
 //Fetch API
-const listaProductos = () => fetch('http://localhost:3000/productos').then(respuesta => respuesta.json())
+const listaProductos = () => fetch('https://lennyloor.github.io/Alura-Geek/productos').then(respuesta => respuesta.json())
 
 
 //POST 
 const crearProducto = (imageUrl, categoria, name, price )=>{
-    return fetch('http://localhost:3000/productos',{
+    return fetch('https://lennyloor.github.io/Alura-Geek/productos',{
         method: "POST",
         headers:{
             'content-type': 'application/json'
@@ -15,7 +15,7 @@ const crearProducto = (imageUrl, categoria, name, price )=>{
 } 
 
 const eliminarProducto = (id) => { 
-    return fetch(`http://localhost:3000/productos/${id}`,{
+    return fetch(`https://lennyloor.github.io/Alura-Geek/productos/${id}`,{
         method: "DELETE",
     })
 }
