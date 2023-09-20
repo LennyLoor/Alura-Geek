@@ -36,7 +36,7 @@ import { productServices } from "../service/productos-service.js";
         const precio = '$' + valPrecio;
 
         productServices.crearProducto(url, categoria, nombre, precio).then(() => {
-            window.location.href = '/pages/productos.html'
+            window.location.href = '/Alura-Geek/pages/productos.html'
         }).catch(error => console.log(error));
 
     })
