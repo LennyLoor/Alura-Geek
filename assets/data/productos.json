@@ -125,6 +125,20 @@
       "imageUrl": "../assets/image/productos/diverso-6.png",
       "price": "$ 60,00",
       "id": "18"
+    },
+    {
+      "imageUrl": "https://play-lh.googleusercontent.com/5lkP9bKxlbAhMnnk6dnBR4IprWWc-oJd0AVNTUnEyFzIfA0kS5U7BkBKlTb-2vjnTQ",
+      "categoria": "Starwars",
+      "name": "Prueba",
+      "price": "$10.00",
+      "id": "2c81d649-d37e-49f2-9827-a57b8b783bea"
+    },
+    {
+      "imageUrl": "https://play-lh.googleusercontent.com/5lkP9bKxlbAhMnnk6dnBR4IprWWc-oJd0AVNTUnEyFzIfA0kS5U7BkBKlTb-2vjnTQ",
+      "categoria": "Consola",
+      "name": "Prueba",
+      "price": "$0.25",
+      "id": "4b6aab07-5a35-48ce-b4b6-ff1482eadce9"
     }
   ]
 }
